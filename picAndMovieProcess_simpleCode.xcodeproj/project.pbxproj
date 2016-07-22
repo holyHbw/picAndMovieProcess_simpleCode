@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB7B3E41D40E9AA00E210B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B3E31D40E9AA00E210B5 /* AppDelegate.m */; };
+		7FB7B3E71D40E9AA00E210B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B3E61D40E9AA00E210B5 /* main.m */; };
+		7FB7B3EA1D40E9AA00E210B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B3E91D40E9AA00E210B5 /* ViewController.m */; };
+		7FB7B3EC1D40E9AA00E210B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7B3EB1D40E9AA00E210B5 /* Assets.xcassets */; };
+		7FB7B3EF1D40E9AA00E210B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7B3ED1D40E9AA00E210B5 /* Main.storyboard */; };
+		7FB7B3FA1D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B3F91D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.m */; };
+		7FB7B4051D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B4041D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.m */; };
+		7FB7B4161D40E9FA00E210B5 /* movieProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B4151D40E9FA00E210B5 /* movieProcess.m */; };
+		7FB7B4191D40EA0700E210B5 /* picProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B4181D40EA0700E210B5 /* picProcess.m */; };
+		7FB7B41C1D40EABE00E210B5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB7B41B1D40EABE00E210B5 /* AppKit.framework */; };
+		7FF088C31D41AF8500AC9FAC /* supportFiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FF088C21D41AF8500AC9FAC /* supportFiles.plist */; };
+		7FF088C91D41B22B00AC9FAC /* ArcACSupportFiles.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FF088C81D41B22B00AC9FAC /* ArcACSupportFiles.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB7B3F61D40E9AA00E210B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB7B3D71D40E9AA00E210B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB7B3DE1D40E9AA00E210B5;
+			remoteInfo = picAndMovieProcess_simpleCode;
+		};
+		7FB7B4011D40E9AA00E210B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB7B3D71D40E9AA00E210B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB7B3DE1D40E9AA00E210B5;
+			remoteInfo = picAndMovieProcess_simpleCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FB7B3DF1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picAndMovieProcess_simpleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB7B3E21D40E9AA00E210B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FB7B3E31D40E9AA00E210B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FB7B3E61D40E9AA00E210B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FB7B3E81D40E9AA00E210B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FB7B3E91D40E9AA00E210B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FB7B3EB1D40E9AA00E210B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB7B3EE1D40E9AA00E210B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FB7B3F01D40E9AA00E210B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB7B3F51D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picAndMovieProcess_simpleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB7B3F91D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picAndMovieProcess_simpleCodeTests.m; sourceTree = "<group>"; };
+		7FB7B3FB1D40E9AA00E210B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB7B4001D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picAndMovieProcess_simpleCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB7B4041D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picAndMovieProcess_simpleCodeUITests.m; sourceTree = "<group>"; };
+		7FB7B4061D40E9AA00E210B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB7B4141D40E9FA00E210B5 /* movieProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieProcess.h; sourceTree = "<group>"; };
+		7FB7B4151D40E9FA00E210B5 /* movieProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieProcess.m; sourceTree = "<group>"; };
+		7FB7B4171D40EA0700E210B5 /* picProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picProcess.h; sourceTree = "<group>"; };
+		7FB7B4181D40EA0700E210B5 /* picProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = picProcess.m; sourceTree = "<group>"; };
+		7FB7B41B1D40EABE00E210B5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7FF088C21D41AF8500AC9FAC /* supportFiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supportFiles.plist; sourceTree = "<group>"; };
+		7FF088C71D41B22B00AC9FAC /* ArcACSupportFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcACSupportFiles.h; sourceTree = "<group>"; };
+		7FF088C81D41B22B00AC9FAC /* ArcACSupportFiles.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ArcACSupportFiles.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB7B3DC1D40E9AA00E210B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7B41C1D40EABE00E210B5 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3F21D40E9AA00E210B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3FD1D40E9AA00E210B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB7B3D61D40E9AA00E210B5 = {
+			isa = PBXGroup;
+			children = (
+				7FB7B3E11D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */,
+				7FB7B3F81D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests */,
+				7FB7B4031D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests */,
+				7FB7B3E01D40E9AA00E210B5 /* Products */,
+				7FB7B41A1D40EABE00E210B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB7B3E01D40E9AA00E210B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B3DF1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode.app */,
+				7FB7B3F51D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.xctest */,
+				7FB7B4001D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB7B3E11D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */ = {
+			isa = PBXGroup;
+			children = (
+				7FF088C51D41B0D900AC9FAC /* Model */,
+				7FF088C61D41B0E300AC9FAC /* View */,
+				7FF088C41D41B0BA00AC9FAC /* Controller */,
+				7FB7B4131D40E9DF00E210B5 /* movieProcess */,
+				7FB7B4121D40E9CB00E210B5 /* picProcess */,
+				7FF088CA1D41B24400AC9FAC /* ArcSupportFiles */,
+				7FB7B3EB1D40E9AA00E210B5 /* Assets.xcassets */,
+				7FB7B3ED1D40E9AA00E210B5 /* Main.storyboard */,
+				7FB7B3E51D40E9AA00E210B5 /* Supporting Files */,
+			);
+			path = picAndMovieProcess_simpleCode;
+			sourceTree = "<group>";
+		};
+		7FB7B3E51D40E9AA00E210B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B3E21D40E9AA00E210B5 /* AppDelegate.h */,
+				7FB7B3E31D40E9AA00E210B5 /* AppDelegate.m */,
+				7FF088C21D41AF8500AC9FAC /* supportFiles.plist */,
+				7FB7B3F01D40E9AA00E210B5 /* Info.plist */,
+				7FB7B3E61D40E9AA00E210B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FB7B3F81D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B3F91D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.m */,
+				7FB7B3FB1D40E9AA00E210B5 /* Info.plist */,
+			);
+			path = picAndMovieProcess_simpleCodeTests;
+			sourceTree = "<group>";
+		};
+		7FB7B4031D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B4041D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.m */,
+				7FB7B4061D40E9AA00E210B5 /* Info.plist */,
+			);
+			path = picAndMovieProcess_simpleCodeUITests;
+			sourceTree = "<group>";
+		};
+		7FB7B4121D40E9CB00E210B5 /* picProcess */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B4171D40EA0700E210B5 /* picProcess.h */,
+				7FB7B4181D40EA0700E210B5 /* picProcess.m */,
+			);
+			name = picProcess;
+			sourceTree = "<group>";
+		};
+		7FB7B4131D40E9DF00E210B5 /* movieProcess */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B4141D40E9FA00E210B5 /* movieProcess.h */,
+				7FB7B4151D40E9FA00E210B5 /* movieProcess.m */,
+			);
+			name = movieProcess;
+			sourceTree = "<group>";
+		};
+		7FB7B41A1D40EABE00E210B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B41B1D40EABE00E210B5 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FF088C41D41B0BA00AC9FAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7B3E81D40E9AA00E210B5 /* ViewController.h */,
+				7FB7B3E91D40E9AA00E210B5 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7FF088C51D41B0D900AC9FAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7FF088C61D41B0E300AC9FAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7FF088CA1D41B24400AC9FAC /* ArcSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7FF088C71D41B22B00AC9FAC /* ArcACSupportFiles.h */,
+				7FF088C81D41B22B00AC9FAC /* ArcACSupportFiles.mm */,
+			);
+			name = ArcSupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB7B3DE1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB7B4091D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCode" */;
+			buildPhases = (
+				7FB7B3DB1D40E9AA00E210B5 /* Sources */,
+				7FB7B3DC1D40E9AA00E210B5 /* Frameworks */,
+				7FB7B3DD1D40E9AA00E210B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picAndMovieProcess_simpleCode;
+			productName = picAndMovieProcess_simpleCode;
+			productReference = 7FB7B3DF1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB7B3F41D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB7B40C1D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCodeTests" */;
+			buildPhases = (
+				7FB7B3F11D40E9AA00E210B5 /* Sources */,
+				7FB7B3F21D40E9AA00E210B5 /* Frameworks */,
+				7FB7B3F31D40E9AA00E210B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB7B3F71D40E9AA00E210B5 /* PBXTargetDependency */,
+			);
+			name = picAndMovieProcess_simpleCodeTests;
+			productName = picAndMovieProcess_simpleCodeTests;
+			productReference = 7FB7B3F51D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB7B3FF1D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB7B40F1D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCodeUITests" */;
+			buildPhases = (
+				7FB7B3FC1D40E9AA00E210B5 /* Sources */,
+				7FB7B3FD1D40E9AA00E210B5 /* Frameworks */,
+				7FB7B3FE1D40E9AA00E210B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB7B4021D40E9AA00E210B5 /* PBXTargetDependency */,
+			);
+			name = picAndMovieProcess_simpleCodeUITests;
+			productName = picAndMovieProcess_simpleCodeUITests;
+			productReference = 7FB7B4001D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB7B3D71D40E9AA00E210B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "黄博闻";
+				TargetAttributes = {
+					7FB7B3DE1D40E9AA00E210B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					7FB7B3F41D40E9AA00E210B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FB7B3DE1D40E9AA00E210B5;
+					};
+					7FB7B3FF1D40E9AA00E210B5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FB7B3DE1D40E9AA00E210B5;
+					};
+				};
+			};
+			buildConfigurationList = 7FB7B3DA1D40E9AA00E210B5 /* Build configuration list for PBXProject "picAndMovieProcess_simpleCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB7B3D61D40E9AA00E210B5;
+			productRefGroup = 7FB7B3E01D40E9AA00E210B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB7B3DE1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */,
+				7FB7B3F41D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests */,
+				7FB7B3FF1D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB7B3DD1D40E9AA00E210B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7B3EC1D40E9AA00E210B5 /* Assets.xcassets in Resources */,
+				7FF088C31D41AF8500AC9FAC /* supportFiles.plist in Resources */,
+				7FB7B3EF1D40E9AA00E210B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3F31D40E9AA00E210B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3FE1D40E9AA00E210B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB7B3DB1D40E9AA00E210B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF088C91D41B22B00AC9FAC /* ArcACSupportFiles.mm in Sources */,
+				7FB7B4191D40EA0700E210B5 /* picProcess.m in Sources */,
+				7FB7B4161D40E9FA00E210B5 /* movieProcess.m in Sources */,
+				7FB7B3EA1D40E9AA00E210B5 /* ViewController.m in Sources */,
+				7FB7B3E71D40E9AA00E210B5 /* main.m in Sources */,
+				7FB7B3E41D40E9AA00E210B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3F11D40E9AA00E210B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7B3FA1D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB7B3FC1D40E9AA00E210B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7B4051D40E9AA00E210B5 /* picAndMovieProcess_simpleCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB7B3F71D40E9AA00E210B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB7B3DE1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */;
+			targetProxy = 7FB7B3F61D40E9AA00E210B5 /* PBXContainerItemProxy */;
+		};
+		7FB7B4021D40E9AA00E210B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB7B3DE1D40E9AA00E210B5 /* picAndMovieProcess_simpleCode */;
+			targetProxy = 7FB7B4011D40E9AA00E210B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB7B3ED1D40E9AA00E210B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB7B3EE1D40E9AA00E210B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB7B4071D40E9AA00E210B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FB7B4081D40E9AA00E210B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FB7B40A1D40E9AA00E210B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FB7B40B1D40E9AA00E210B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FB7B40D1D40E9AA00E210B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picAndMovieProcess_simpleCode.app/Contents/MacOS/picAndMovieProcess_simpleCode";
+			};
+			name = Debug;
+		};
+		7FB7B40E1D40E9AA00E210B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picAndMovieProcess_simpleCode.app/Contents/MacOS/picAndMovieProcess_simpleCode";
+			};
+			name = Release;
+		};
+		7FB7B4101D40E9AA00E210B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = picAndMovieProcess_simpleCode;
+			};
+			name = Debug;
+		};
+		7FB7B4111D40E9AA00E210B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = picAndMovieProcess_simpleCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbw.picAndMovieProcess-simpleCodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = picAndMovieProcess_simpleCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB7B3DA1D40E9AA00E210B5 /* Build configuration list for PBXProject "picAndMovieProcess_simpleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7B4071D40E9AA00E210B5 /* Debug */,
+				7FB7B4081D40E9AA00E210B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB7B4091D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7B40A1D40E9AA00E210B5 /* Debug */,
+				7FB7B40B1D40E9AA00E210B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB7B40C1D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7B40D1D40E9AA00E210B5 /* Debug */,
+				7FB7B40E1D40E9AA00E210B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB7B40F1D40E9AA00E210B5 /* Build configuration list for PBXNativeTarget "picAndMovieProcess_simpleCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7B4101D40E9AA00E210B5 /* Debug */,
+				7FB7B4111D40E9AA00E210B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB7B3D71D40E9AA00E210B5 /* Project object */;
+}
